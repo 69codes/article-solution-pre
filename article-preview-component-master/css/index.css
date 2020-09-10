@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+}
+.wrapper {
+    color: hsl(217, 19%, 35%);
+    width: 65%;
+    background-color: hsl(210, 46%, 95%);
+    margin: auto;
+    margin-top: 5%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Manrope', sans-serif;
+    
+    
+    
+}
+.main {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    border-radius: 10px;
+    
+    
+    
+}
+.flex1{
+    
+    width: 220px;
+    background-image: url("../images/drawers.jpg");
+    height: 220px;
+    background-size: 100% 100%;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.flex2{
+    background-color: white;
+    width: 392.5px;
+    height: 220px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.opening{
+    font-weight: 700;
+    
+    font-size: 16px;
+    margin-left: 20px;
+}
+.content{
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 20px;
+}
